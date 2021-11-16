@@ -21,7 +21,7 @@ namespace WPFMVVMComboboxItemssourceBindingTest.ViewModels
             set { SetProperty(ref _comboboxBindingItemsSource, value); }
         }
 
-        private ICommand _clickReloadComboboxItemsSourceBtnCommand;
+        private ICommand? _clickReloadComboboxItemsSourceBtnCommand;
         public ICommand ClickReloadComboboxItemsSourceBtnCommand
         {
             get
